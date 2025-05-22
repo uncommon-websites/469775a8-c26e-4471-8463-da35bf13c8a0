@@ -100,8 +100,12 @@
 		{
 			name: "Sequoia Capital",
 			image: "https://cdn.brandfetch.io/sequoiacap.com/w/400/h/400/logo"
+		},
+		{
+			name: "Founders Fund",
+			image: "https://logo.clearbit.com/foundersfund.com"
 		}
-	]}
+	]
 />
 
 <!-- CTA Section -->
