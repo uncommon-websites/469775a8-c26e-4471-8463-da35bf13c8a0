@@ -23,22 +23,22 @@
 		"bg-primary-50 text-primary-600 dark:bg-primary-950 dark:text-primary-400 flex items-center justify-center rounded-full";
 
 	const benefits = [
-		{
-			title: "Flexible Work",
-			description: "Remote-first with flexible hours that respect work-life balance.",
-			icon: IconBriefcase
-		},
-		{
-			title: "Growth Opportunities",
-			description: "Continuous learning with mentorship and education stipends.",
-			icon: IconUsers
-		},
-		{
-			title: "Comprehensive Benefits",
-			description: "Health coverage, retirement plans, and generous paid time off.",
-			icon: IconHeart
-		}
-	];
+  {
+    title: "Make a real impact",
+    description: "Help fix the UK's healthcare staffing crisis and shape the future of care delivery.",
+    icon: IconBriefcase
+  },
+  {
+    title: "Learn from experts",
+    description: "Collaborate with healthcare leaders, NHS advisors, and clinical innovators.",
+    icon: IconUsers
+  },
+  {
+    title: "Grow your career globally",
+    description: "Access unique professional development and build a cross-border career in healthcare.",
+    icon: IconHeart
+  }
+];
 
 	const openings: JobOpening[] = [
 		// Engineering
@@ -121,78 +121,80 @@
 	];
 
 	const employeeTestimonials = [
-		{
-			name: "Michael Chen",
-			position: "Senior Developer",
-			company: "Engineering Team",
-			quote:
-				"Working here has given me the opportunity to tackle challenging problems while maintaining a healthy work-life balance. The team culture is supportive and collaborative.",
-			image:
-				"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Priya Sharma",
-			position: "Product Designer",
-			company: "Design Team",
-			quote:
-				"The creative freedom and opportunity to influence product decisions makes this the best place I've ever worked. I'm constantly learning and growing.",
-			image:
-				"https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Marcus Johnson",
-			position: "Marketing Lead",
-			company: "Marketing Team",
-			quote:
-				"I joined three years ago and have grown tremendously. The leadership truly invests in your development and the work environment is both challenging and supportive.",
-			image:
-				"https://images.unsplash.com/photo-1531384441138-2736e62e0919?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		}
-	];
+  {
+    name: "Dr. Nazeera Mahendran",
+    position: "GP, clinician team (Malaysia)",
+    company: "Clinical Team",
+    quote: "Working with Asterix Health has been incredible. I get to support primary care teams in the UK, stay clinically sharp, and have true work-life balance—without relocating or burning out.",
+    image: "/generated/image-a-professional-headshot-of-a-malaysian-f.webp"
+  },
+  {
+    name: "Callum Reyes",
+    position: "Operations associate",
+    company: "Operations Team",
+    quote: "I joined early thinking this would be a startup with big ambition—and I was right. I'm learning every week, working with smart, kind people solving a real crisis in healthcare staffing.",
+    image: "/generated/professional-headshot-of-a-young-hispanic-male-in-o.webp"
+  },
+  {
+    name: "Anaya Patel",
+    position: "Head of product",
+    company: "Product Team",
+    quote: "We're building tools that expand what clinicians and ops teams can do—safe, simple, compliant. Everyone here moves fast but with real purpose. It's energizing.",
+    image: "/generated/professional-headshot-of-a-south-asian-woman-in-p.webp"
+  }
+];
 
 	const processSteps = [
-		{
-			step: 1,
-			title: "Apply",
-			description:
-				"Submit your application through our careers portal with your resume and portfolio."
-		},
-		{
-			step: 2,
-			title: "Interview",
-			description: "Meet with our team to discuss your experience, skills, and career aspirations."
-		},
-		{
-			step: 3,
-			title: "Welcome aboard",
-			description: "Join our team and start your journey building the future with us."
-		}
-	];
+  {
+    step: 1,
+    title: "Submit interest",
+    description:
+      "Send a quick application—no CV required. Tell us about your background and, if clinical, your GMC/UK credentials."
+  },
+  {
+    step: 2,
+    title: "Intro call",
+    description: "We’ll set up a video chat to learn about your experience and answer your questions within a week."
+  },
+  {
+    step: 3,
+    title: "Clinical & team interview",
+    description:
+      "Doctors will have a review with our leadership for safety, language, and readiness. All candidates connect with the core team."
+  },
+  {
+    step: 4,
+    title: "Offer & onboarding",
+    description:
+      "Get fast feedback. Join us for compliance training, tech setup, and tailored orientation. Most finish in under two weeks."
+  }
+];
 
 	const values = [
-		{
-			icon: IconHeart,
-			title: "Passion",
-			description: "We're driven by a shared passion for innovation and excellence."
-		},
-		{
-			icon: IconUsers,
-			title: "Collaboration",
-			description: "We believe in teamwork and collaboration to achieve great things."
-		},
-		{
-			icon: IconGlobe,
-			title: "Global Impact",
-			description: "We're committed to making a positive impact on the world."
-		}
-	];
+  {
+    icon: IconHeart,
+    title: "Patients come first",
+    description: "Every decision starts with clinical quality and real-world outcomes."
+  },
+  {
+    icon: IconUsers,
+    title: "Move fast, support each other",
+    description: "We build quickly, grow together, and favour action. Collaboration beats hierarchy."
+  },
+  {
+    icon: IconGlobe,
+    title: "Global perspective, local impact",
+    description: "We blend UK health system expertise with a global network for 24/7 coverage and new ideas."
+  }
+];
 </script>
 
 <!-- Hero Section -->
 
 <SecondaryHero
-	title="Join our team of innovators"
-	subtitle="We're looking for passionate people to help us build the future of digital experiences. Discover your next opportunity with us."
+	title="Empowering care. Everywhere."
+	subtitle="Join a global team transforming UK healthcare—remotely, inclusively, and with purpose"
+	imageSrc="/generated/image-a-diverse-group-of-healthcare-profession.webp"
 />
 
 <!-- Why Join Us Section -->

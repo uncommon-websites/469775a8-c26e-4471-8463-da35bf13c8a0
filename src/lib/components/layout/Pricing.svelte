@@ -35,10 +35,123 @@ Please update features according to the company's product offering. Do not remov
 
 	// Props
 	const {
-		title = "Simple, transparent pricing",
-		subtitle = "Choose the plan that works best for your needs",
-		tierNames = ["Starter", "Pro", "Enterprise"],
+		title = "Simple pricing for every practice type",
+		subtitle = "Transparent plans to meet the needs of all healthcare providers",
+		tierNames = ["Essential", "Growth", "Enterprise"],
 		features = [
+	{
+		name: "Best for",
+		tiers: {
+			Essential: "Small practices (ad-hoc)",
+			Growth: "Medium practices/clinics",
+			Enterprise: "NHS/large networks"
+		}
+	},
+	{
+		name: "Pricing",
+		tiers: {
+			Essential: "from £150/session",
+			Growth: "from £1,495/clinician/mo",
+			Enterprise: "Contact us"
+		}
+	},
+	{
+		name: "Minimum commitment",
+		tiers: {
+			Essential: "No minimum",
+			Growth: "16 sessions/month",
+			Enterprise: "Custom"
+		}
+	},
+	{
+		name: "Clinician type",
+		tiers: {
+			Essential: "UK GMC-registered",
+			Growth: "Named allocation",
+			Enterprise: "Dedicated teams"
+		}
+	},
+	{
+		name: "NHS system integration",
+		tiers: {
+			Essential: true,
+			Growth: true,
+			Enterprise: true
+		}
+	},
+	{
+		name: "Admin task coverage",
+		tiers: {
+			Essential: "Basic",
+			Growth: "Routine & planned",
+			Enterprise: "Custom/complex"
+		}
+	},
+	{
+		name: "Clinical onboarding/training",
+		tiers: {
+			Essential: "Basic support",
+			Growth: "Full onboarding",
+			Enterprise: "Customised plans"
+		}
+	},
+	{
+		name: "Session scheduling",
+		tiers: {
+			Essential: "Flexible booking",
+			Growth: "Recurring/rota",
+			Enterprise: "Guaranteed SLAs"
+		}
+	},
+	{
+		name: "Time zone/shift type",
+		tiers: {
+			Essential: "Day only",
+			Growth: "Day/evening",
+			Enterprise: "24/7 UK opt."
+		}
+	},
+	{
+		name: "Data & regulatory compliance",
+		tiers: {
+			Essential: true,
+			Growth: true,
+			Enterprise: true
+		}
+	},
+	{
+		name: "Dedicated account manager",
+		tiers: {
+			Essential: false,
+			Growth: false,
+			Enterprise: true
+		}
+	},
+	{
+		name: "Custom reporting/reviews",
+		tiers: {
+			Essential: false,
+			Growth: false,
+			Enterprise: true
+		}
+	},
+	{
+		name: "Priority support / SLA",
+		tiers: {
+			Essential: false,
+			Growth: "Standard",
+			Enterprise: "SLA"
+		}
+	},
+	{
+		name: "Billing options",
+		tiers: {
+			Essential: "Pay-as-you-go",
+			Growth: "Monthly/annual",
+			Enterprise: "Custom"
+		}
+	}
+],
 			{
 				name: "Projects",
 				tiers: {
@@ -113,6 +226,59 @@ Please update features according to the company's product offering. Do not remov
 			}
 		],
 		tiers = [
+	{
+		name: "Essential",
+		monthlyPrice: 150, // for reference only, per session
+		yearlyPrice: null,
+		description: "For small practices needing flexible, ad-hoc help. No long-term commitment. Only pay for remote doctors you use.",
+		features: [
+			"GMC-registered, UK-qualified clinicians",
+			"No minimum sessions",
+			"Seamless NHS integration",
+			"Basic onboarding",
+			"Book per session"
+		],
+		cta: {
+			label: "Get started",
+			href: "/contact"
+		}
+	},
+	{
+		name: "Growth",
+		monthlyPrice: 1495,
+		yearlyPrice: 1350, // Discount for annual commitment (could clarify 10%+ savings)
+		description: "For growing practices or clinics needing regular, predictable weekly cover. Discounted rates for ongoing staffing.",
+		features: [
+			"Named doctors, stable allocation",
+			"Full onboarding & handover",
+			"Routine and rota coverage",
+			"Standard support",
+			"Flexible scheduling (day/evening)"
+		],
+		cta: {
+			label: "Start pilot",
+			href: "/contact"
+		},
+		highlight: true
+	},
+	{
+		name: "Enterprise",
+		monthlyPrice: null,
+		yearlyPrice: null,
+		description: "For multi-site providers, NHS 111, or networks wanting dedicated teams, custom reporting and SLAs. Expert-led onboarding.",
+		features: [
+			"Assigned team/experts",
+			"Dedicated account manager",
+			"Custom workflows & reporting",
+			"Full UK shift coverage",
+			"SLA and bespoke pricing"
+		],
+		cta: {
+			label: "Contact sales",
+			href: "/contact"
+		}
+	}
+]
 			{
 				name: "Starter",
 				monthlyPrice: 9.99,

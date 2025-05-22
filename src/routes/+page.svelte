@@ -53,107 +53,106 @@
 />
 
 <Summary
-	generating
 	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	text="Asterix Health gives UK healthcare providers instant access to GMC-registered doctors overseas—at 60% lower cost. We provide compliant, remote clinical staff who integrate into existing NHS workflows, helping you solve staffing shortages efficiently and affordably."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
-			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image:
-				"https://images.unsplash.com/photo-1571513722275-4b41940f54b8?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+			name: "Siobhan Carver",
+			position: "Practice Manager, Birchwell Surgery",
+			quote: "We've saved over 12 hours a week on clinical admin. That time now goes back into patients—where it should be.",
+			image: "/generated/image-a-woman-in-a-gp-practice-office-dressed-.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
-			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image:
-				"https://images.unsplash.com/photo-1600603405959-6d623e92445c?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+			name: "Bryn Emberson",
+			position: "Director of Operations, NorthEast GP Federation",
+			quote: "Asterix cut our locum dependency by 80%. We finally have continuity—and zero last-minute rota scrambles.",
+			image: "/generated/image-a-man-standing-confidently-in-an-nhs-adm.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
-			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image:
-				"https://images.unsplash.com/photo-1531123897727-8f129e1688ce?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+			name: "Eilidh Masson",
+			position: "Clinical Director, Allleigh Integrated Care Board",
+			quote: "We’ve reduced clinical backfill costs by 58%, and the care quality hasn’t dropped a bit. Feels like the future of NHS staffing.",
+			image: "/generated/image-a-woman-in-a-healthcare-boardroom-wearin.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
-	features={[
-		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
-		},
-		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
-		},
-		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
-		}
-	]}
+  title="Key features"
+  subtitle="What sets Asterix Health apart"
+  features={[
+    {
+      title: "NHS-approved clinical staffing",
+      description: "The first and only provider with written approval from the NHS national team."
+    },
+    {
+      title: "60% lower cost, same high standards",
+      description: "Access UK-registered doctors at a fraction of the usual price, with no compromise on quality."
+    },
+    {
+      title: "Remote GMC-registered clinicians",
+      description: "All doctors are fully qualified in the UK and integrated with NHS-approved systems."
+    },
+    {
+      title: "Fits your existing workflow",
+      description: "No new tech to learn—our doctors work inside your current NHS processes."
+    },
+    {
+      title: "Day and night cover across time zones",
+      description: "Clinicians work UK day or night shifts, leveraging global time differences for true 24/7 support."
+    },
+    {
+      title: "Future-ready with AI integration",
+      description: "We’re advancing toward up to 90% savings as AI supports clinical tasks alongside our team."
+    }
+  ]}
 />
 
 <UseCases
-	generating
-	title="Use Cases"
-	subtitle="Real-world applications for your business needs"
-	useCases={[
-		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings.",
-			image:
-				"https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
-			link: {
-				href: "/use-cases/workflows",
-				label: "Learn more"
-			}
-		},
-		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2488&q=80",
-			link: {
-				href: "/use-cases/data-analysis",
-				label: "Explore analytics"
-			}
-		},
-		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption.",
-			image:
-				"https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
-			link: {
-				href: "/use-cases/collaboration",
-				label: "See security features"
-			}
-		}
-	]}
+  title="Use Cases"
+  subtitle="Real-world applications for your business needs"
+  useCases={[
+    {
+      title: "Remote clinical admin for GP practices",
+      description: "Free up GPs by delegating lab results, letters, and admin tasks to qualified overseas doctors—no changes to your existing systems required.",
+      image: "/generated/image-a-doctor-of-diverse-background-carefully.webp",
+      link: {
+        href: "/use-cases/clinical-admin-gp",
+        label: "Learn more"
+      }
+    },
+    {
+      title: "Overnight rota cover for out-of-hours services",
+      description: "Staff evenings and nights with GMC-registered doctors in different time zones—all working securely through NHS-approved platforms.",
+      image: "/generated/image-a-dedicated-healthcare-team-working-toge.webp",
+      link: {
+        href: "/use-cases/out-of-hours-cover",
+        label: "Learn more"
+      }
+    },
+    {
+      title: "Overflow triage for NHS 111",
+      description: "Add remote clinicians instantly for peak demand—keep call times low and quality high, without the cost or hassle of short-term locums.",
+      image: "/generated/image-a-cheerful-nhs-call-handler-exuding-warm.webp",
+      link: {
+        href: "/use-cases/nhs-111-overflow",
+        label: "Learn more"
+      }
+    }
+  ]}
 />
 
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction
+  title="UK-registered doctors. 60% lower cost."
+  subtitle="NHS-approved remote staffing, ready when you are."
+  description="Trusted by NHS leaders, Asterix Health gives you fully compliant remote doctors with GMC registration—using your systems, no workflow changes. NHS-approved and ready to start at a fraction of local staffing costs."
+  imageSrc="/generated/image-a-smiling-british-nhs-gp-in-a-contempora.webp"
+  callsToAction={[
+    { href: "/contact", label: "Book a call", variant: "primary" },
+    { href: "/how-it-works", label: "How it works", variant: "secondary" }
+  ]}
+/>

@@ -10,34 +10,41 @@
 
 	// Constants
 	const values = [
-		{
-			title: "Innovation",
-			description: "Constantly challenging the status quo to create better solutions."
-		},
-		{
-			title: "Integrity",
-			description: "Building trust through transparent actions and honest communication."
-		},
-		{
-			title: "Impact",
-			description: "Measuring our success by the positive change we create for our clients."
-		}
-	];
+  {
+    title: "Regulatory-first mindset",
+    description: "We lead with compliance, always meeting—and exceeding—NHS standards."
+  },
+  {
+    title: "Clinical quality comes first",
+    description: "Patient safety and excellence in care are non-negotiable in every workflow."
+  },
+  {
+    title: "Global collaboration",
+    description: "We unite UK and international clinicians as one team for seamless patient outcomes."
+  },
+  {
+    title: "Relentless innovation",
+    description: "We continuously break new ground, finding safer, faster ways to solve healthcare’s toughest problems."
+  },
+  {
+    title: "Impact at scale",
+    description: "We exist to make a difference for clinicians, providers, and the entire healthcare system."
+  }
+];
 </script>
 
 <SecondaryHero
-	title="Solving world hunger"
-	subtitle="one step at a time"
-	imageSrc="https://source.unsplash.com/random/?people"
+	title="Affordable clinical staff, on demand"
+	subtitle="UK-registered doctors handling admin at 60% lower cost"
+	imageSrc="/mockups/airport-screen-1747932580262.png"
 />
 
 <!-- Story Section -->
 <Story
 	paragraphs={[
-		"We started in 2018 with a simple goal: make helpful tech that people actually need. While many chase profits, we chose to do things differently.",
-		"Beyond making good products, we care about doing the right thing, being kind to our planet, and making sure everyone can use what we build. That's our compass.",
-		"From day one, we've asked ourselves: 'Does this actually help people?' This question gets us through tough calls and shapes who we are. We're playing the long game here.",
-		"We think about how our work affects real people's lives. We build tech that brings people together, keeps your information safe, and treats everyone fairly. When we stick to these basics, good things happen."
+		"Asterix Health began when Julian Titz and Max Thilo saw NHS clinics and providers struggling with persistent staffing shortages and the rising costs of locum doctors. With patient care suffering and existing solutions falling short, they set out to create something better—for both clinicians and providers.",
+		"They realised that by leveraging new NHS regulations, they could connect UK healthcare organisations to experienced, GMC-registered doctors working remotely overseas. This approach offers safe, affordable clinical admin support, using familiar systems and workflows at a fraction of the traditional cost.",
+		"Their model quickly gained recognition, earning written approval from the NHS national team and signing pilot deals with leading providers. Today, Asterix Health enables practices and NHS 111 teams to access reliable, qualified doctors—seamlessly and sustainably—so healthcare teams can focus on what matters most: caring for patients."
 	]}
 />
 
@@ -48,28 +55,31 @@
 <StakeholderGrid
 	stakeholderType="team"
 	title="Our team."
-	subtitle="Your partners in innovation."
+	subtitle="Built by healthcare insiders."
 	stakeholders={[
 		{
-			name: "Alex Morgan",
-			position: "Founder & CEO",
-			bio: "Started the company with a vision to transform the industry through innovative solutions.",
-			image:
-				"https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
+			name: "Julian Titz",
+			position: "Co-founder",
+			bio: "Drives commercial growth and partnerships to solve healthcare's staffing crisis.",
+			image: "/generated/image-professional-headshot-of-a-confident-mal.webp"
 		},
 		{
-			name: "Jamie Chen",
-			position: "Chief Design Officer",
-			bio: "Award-winning designer with a passion for creating intuitive and beautiful experiences.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=776&q=80"
+			name: "Max Thilo",
+			position: "Co-founder",
+			bio: "Leads strategy and execution, bringing operations expertise to UK healthcare.",
+			image: "/generated/image-professional-headshot-of-a-confident-mal.webp"
 		},
 		{
-			name: "Taylor Wright",
-			position: "Head of Engineering",
-			bio: "Technology enthusiast focused on building scalable systems that make a difference.",
-			image:
-				"https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
+			name: "Dr. Dan Bunstone",
+			position: "Chief Medical Officer",
+			bio: "Former NHS leader ensuring clinical excellence and regulatory compliance.",
+			image: "/generated/image-headshot-of-a-friendly-male-british-doct.webp"
+		},
+		{
+			name: "Lauren Yates",
+			position: "Head of Quality",
+			bio: "Drives rigorous standards in patient safety and service delivery.",
+			image: "/generated/image-professional-headshot-of-a-confident-fem.webp"
 		}
 	]}
 />
@@ -96,7 +106,13 @@
 
 <!-- CTA Section -->
 <CallToAction
-	title="Ready to collaborate?"
-	subtitle="Let's create something amazing"
-	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
+  title="Join a new era in healthcare staffing"
+  subtitle="Work with Asterix Health to solve the NHS staffing crisis—for good"
+  description="Whether you’re a doctor, healthcare operator, or an NHS leader, you can help shape the future of UK healthcare. Pilot our service, collaborate with our team, or join as a clinician—and bring real change where it’s needed most."
+  callsToAction={[
+    { href: '/contact', label: 'Book a call', variant: 'primary' },
+    { href: '/careers', label: 'Join as a doctor', variant: 'secondary' },
+    { href: '/pilot', label: 'Pilot with us', variant: 'secondary' }
+  ]}
+  imageSrc="/generated/image-a-diverse-group-of-healthcare-profession.webp"
 />
