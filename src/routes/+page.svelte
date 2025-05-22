@@ -7,16 +7,50 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CustomerCardHero from "$lib/components/layout/hero-sections/CustomerCardHero.svelte";
 </script>
 
-<Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="/sample.png"
-	generating
+<CustomerCardHero
+  centered={false}
+  title="Affordable clinical cover, without the hassle"
+  subtitle="Fully compliant, GMC-registered remote clinicians that fit into your existing NHS workflows—ready to support your team and save you money."
+  customers={[
+    {
+      name: "Dr. Simon Bennett",
+      position: "GP, Bridgewater Practice",
+      imageSrc: "/generated/image-a-british-male-gp-in-a-clean-and-well-li.webp"
+    },
+    {
+      name: "Dr. Helen Carter",
+      position: "GP, Willow View Surgery",
+      imageSrc: "/generated/image-a-british-female-gp-in-a-bright-and-spac.webp"
+    },
+    {
+      name: "James Stewart",
+      position: "NHS 111 Clinical Manager",
+      imageSrc: "/generated/image-a-british-male-nhs-111-clinical-manager-.webp"
+    },
+    {
+      name: "Rachel Owen",
+      position: "GP Surgery Manager, Parkside Health",
+      imageSrc: "/generated/image-a-british-female-gp-surgery-manager-in-a.webp"
+    },
+    {
+      name: "Matthew Green",
+      position: "Founder, MedTech Connect",
+      imageSrc: "/generated/image-a-british-male-health-tech-founder-in-a-.webp"
+    }
+  ]}
 />
-<LogoScroller label="" generating />
+
+<LogoScroller
+  label="Trusted by industry leaders"
+  logoUrls={[
+    'https://logo.clearbit.com/spirehealthcare.com',
+    'https://logo.clearbit.com/circlehealthgroup.co.uk',
+    'https://logo.clearbit.com/virgincare.co.uk'
+  ]}
+/>
 
 <Summary
 	generating
